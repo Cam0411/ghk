@@ -1,0 +1,6 @@
+hoten = input("nhap ho ten:  ")
+hoten = hoten.title()
+hoten = hoten.split()
+l = len(hoten)
+print("ho la: ", hoten[0])
+print("ten La: ", hoten[l-1])
